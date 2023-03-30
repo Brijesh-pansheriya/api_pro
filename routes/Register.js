@@ -8,7 +8,7 @@ Router.post('/',async function(req,res,next){
         data =await model.create(req.body);
         console.log(data)
         res.status(201).json({
-            status:'success',
+            status:'hello',
             data
         })
     }
